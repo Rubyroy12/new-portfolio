@@ -1,5 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-h5{
+h5 {
     font-family: 'Montserrat';
+}
+
+#navbar {
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 3px solid rgb(107, 107, 107);
+}
+
+.container-fluid {
+    margin-top: 70px;
+}
+
+#profile {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 70%;
+    color: white;
+   
+
+
+}
+.contact {
+    background-color: rgb(1, 24, 23); 
+    /* width:20%; */
+    margin: 25px;
+    height:40vh;
+    width: 40%;
 }

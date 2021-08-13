@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My Portfolio</title>
+    <title> Ibrahim Kiprotich | Fullstack developer</title>
     <link rel="icon" type="icon type/image" href="./images/portfolio-icon.png">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -24,8 +24,10 @@
 </head>
 
 <body class="bg-secondary">
-    <div class="container bg-secondary"
-        style="background-image: url('https://images.unsplash.com/photo-1479920252409-6e3d8e8d4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60'); background-repeat: no-repeat; background-size: cover;">
+
+
+
+    <div id="navbar">
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(7, 7, 36);">
             <a class="navbar-brand m-2" href="#" style="color: aqua;">Ibrahim</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -49,6 +51,9 @@
                 </ul>
             </div>
         </nav>
+    </div>
+    <div class="container-fluid text-white"
+        style="background-image: linear-gradient(to bottom right, rgb(26, 51, 44), rgb(14, 13, 54));background-size: cover;">
 
 
         <div class="row">
@@ -58,15 +63,43 @@
 
             </div>
             <div class="col-md-4">
-                <div class="introduction mt-5" style="color:rgb(3, 3, 14);">
+                <div class="introduction mt-5" style="color:rgb(250, 250, 255);">
                     <h3>Hello,</h3>
                     <h5>I am Ibrahim Kiprotich</h5>
-                    <h5>Fullstack web developer</h5>
-                    <a class="btn btn-primary" href="about.html">Contact me</a>
+                    <h5>Fullstack web developer</h5><br>
+                    <a class="btn btn-outline-primary" href="about.html">Contact me</a>
+                    <hr>
+                    <div class=" flex-center d-flex ">
+
+                        <!-- Facebook -->
+
+                        <a href="#" class="fa fa-facebook m-1 " style="font-size:20px; color:rgb(0, 46, 253);"></a>
+
+
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/ibrahimKRono" class="fa fa-twitter m-1 "
+                            style="font-size:20px; color:rgb(0, 46, 253);"></a>
+
+                        <!--Linkedin -->
+
+                        <a class="fa fa-linkedin m-1 " style="font-size:20px; color:rgb(0, 46, 253);"
+                            href="https://www.linkedin.com/in/ibrahim-kiprotich-327347162/" target="_blank"></a>
+                        <!--Instagram-->
+
+                        <a class="fa fa-instagram m-1 " style="font-size:20px; color:rgb(0, 46, 253); "
+                            href="https://www.instagram.com/ibrahimkiprotich/"></a>
+
+                        <!--Pinterest-->
+                        <a class="fa fa-github m-1 " style="font-size:20px; color:rgb(0, 46, 253);"
+                            href="https://github.com/Rubyroy12" target="_blank"></a>
+
+
+
+                    </div>
 
                 </div>
             </div>
-            <div class="col-md-4 mt-4 mb-3">
+            <div class="col-md-4 mb-3" id="profile">
 
                 <img src="images/Ibrahim2.jpg" alt=""
                     style="background-repeat:no-repeat; border-bottom:3px solid aqua; border-radius: 90%;"
@@ -80,85 +113,161 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-3">
-                <img src="/images/Ibrahim2.jpg" alt="" height="200" width="200" style="border-radius: 50%;">
+                <h2>About me</h2>
+                <hr style="border: 2px solid white">
             </div>
             <div class="col-md-6">
-                <h3>About me</h3>
-                <p>I am a highly competent IT professional with a proven track record in designing websites, developing websites
+
+                <p class="mt-3">I am a highly competent IT professional with a proven track record in designing
+                    websites, developing
+                    websites
                     and managing databases. I have strong technical skills as well as excellent interpersonal skills,
                     enabling me to interact with a wide range of clients. I am eager to be challenged in order to grow
                     and further improve my IT skills. My greatest passion is in life is using my technical know-how to
-                    benefit other people and organisations.</p>
+                    benefit other people and organisations.
+                </p>
+
+
+
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3">
+                <h3>Education</h3>
+                <hr style="border: 2px solid white">
+            </div>
+            <div class="col-md-7 mt-4">
+
+
+                <ul class="mt-3">
+                    <h4>Moringa school</h4>
+                    <li>
+
+                        <p><strong>Software Development</strong> (February 2021-August 2021)</p>
+
+                    </li>
+                    <p>I have had privilege joining <a href="">Moringa school</a> for a coding bootcamp for
+                        swoftware
+                        developers Fullstack path. Here i studied basic web structure using Markup language and css.
+                    </p>
+                    <h4>Karatina University</h4>
+                    <li>
+                        <p><strong>Bsc. Computer Science</strong> (September 2016-October 2019)</p>
+                        <p>
+                            Being an technical enthusiast, i joined karatine university to persue bachelor of
+                            science in computer science.Studied various fiels including
+                            Cryptography,data structures and algorithms, Ict and Society among others.
+
+
+                        </p>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-dark ">
+            <h2 class="text-center">Seem to like what you see? </h2>
+
+
+
+
+
+            <div class="d-flex justify-content-center">
+                <div class="contact">
+                    <div class="icon d-flex m-3">
+                        <img src="/images/icons8-mail-64.png" alt="">
+                        <h4 class="m-3">ibrakipz7@gmail.com</h4>
+                    </div>
+                    <div class="icon d-flex m-3">
+                        <img src="/images/icons8-location-pin-50.png" alt="">
+                        <h4 class="m-3">Nairobi</h4>
+                    </div>
+                </div>
 
             </div>
-            <h4>Education</h4>
-            <p><strong>Moringa school</strong> (February 2021-August 2021)</p>
-            <p>I have had privilege joining <a href="">Moringa school</a> for a coding bootcamp for swoftware developers Fullstack path. Here i studied basic web structure using Markup language and css.
-                
-            
-            </p>
 
 
-
-        </div>
-
-
-
-
-        <div id="bottom">
-            <!-- Footer -->
-            <footer class="page-footer font-small cyan darken-3" style="width: 100%; background-color:rgb(9, 9, 37)">
-
-                <!-- Footer Elements -->
-                <div class="container">
-
-                    <!-- Grid row-->
-                    <div class="row">
-
-                        <!-- Grid column -->
-                        <div class="col-md-4 py-5 offset-md-4">
-                            <div class="mb-2 flex-center d-flex justify-content-around m-4 ">
-
-                                <!-- Facebook -->
-
-                                <a href="#" class="fa fa-facebook " style="font-size:30px; color:rgb(0, 46, 253);" ></a>
-
-
-                                <!-- Twitter -->
-                                <a href="#" class="fa fa-twitter" style="font-size:30px; color:rgb(0, 46, 253);" ></a>
-
-                                <!--Linkedin -->
-
-                                <a class="fa fa-linkedin" style="font-size:30px; color:rgb(0, 46, 253);" ></a>
-                                <!--Instagram-->
-
-                                <a class="fa fa-instagram" style="font-size:30px; color:rgb(0, 46, 253);" ></a>
-
-                                <!--Pinterest-->
-
-
-                            </div>
-                            <!-- Grid column -->
-
-                        </div>
-                        <!-- Grid row-->
-
-                    </div>
-                    <!-- Footer Elements -->
-                    <hr style="color: aqua;">
-
-                    <!-- Copyright -->
-                    <div class="footer-copyright text-center py-2 text-white">© 2020 Copyright:
-                        <a href="https://mdbootstrap.com/"> Ibrahim</a>
-                    </div>
-                    <!-- Copyright -->
-
-            </footer>
-            <!-- Footer -->
         </div>
     </div>
 
+    </div>
 
+
+
+    </div>
+
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    </div>
+    <div id="bottom">
+        <!-- Footer -->
+        <footer class="page-footer font-small cyan darken-3" style="width: 100%; background-color:rgb(9, 9, 37)">
+
+            <!-- Footer Elements -->
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 py-5 offset-md-4">
+                        <div class="mb-2 flex-center d-flex justify-content-around m-4 ">
+
+                            <!-- Facebook -->
+
+                            <a href="#" class="fa fa-facebook " style="font-size:30px; color:rgb(0, 46, 253);"></a>
+
+
+                            <!-- Twitter -->
+                            <a href="#" class="fa fa-twitter" style="font-size:30px; color:rgb(0, 46, 253);"></a>
+
+                            <!--Linkedin -->
+
+                            <a class="fa fa-linkedin" style="font-size:30px; color:rgb(0, 46, 253);"
+                                href="https://www.linkedin.com/in/ibrahim-kiprotich-327347162/" target="_blank"></a>
+                            <!--Instagram-->
+
+                            <a class="fa fa-instagram" style="font-size:30px; color:rgb(0, 46, 253);"></a>
+
+                            <!--Pinterest-->
+                            <a class="fa fa-github" style="font-size:30px; color:rgb(0, 46, 253);"
+                                href="https://github.com/Rubyroy12" target="_blank"></a>
+
+
+
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row-->
+
+                </div>
+                <!-- Footer Elements -->
+                <hr style="color: aqua;">
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-2 text-white">© 2020 Copyright:
+                    <a href="https://mdbootstrap.com/"> Ibrahim</a>
+                </div>
+                <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+
+    <!-- <script src="/js/app.js"></script> -->
 </body>
 
 </html>
