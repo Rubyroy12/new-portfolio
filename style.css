@@ -35,11 +35,27 @@ hr {
     /* width:20%; */
     margin: 25px;
     height:40vh;
-    width: 40%;
+    /* width: 40%; */
     border-radius:10px;
 }
 .work{
     border-radius:10px;
     border-right: 2px solid aqua;
     border-left: 2px solid aqua;
+}
+.hr1{
+    display: flex;
+    width: 40%;
+    border-top: 3px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.go-top>img:hover {
+    transform: scale(1.5);
+
+
+      
+  
+    
 }
